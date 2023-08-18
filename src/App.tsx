@@ -92,7 +92,7 @@ const App: React.FC = () => {
         className={`${
           !isCopied
             ? "max-w-[80%] md:max-w-[70%] xl:max-w-[60%] overflow-x-scroll overflow-y-hidden mb-6"
-            : "mb-[40px]"
+            : "mb-[42px]"
         } text-6xl`}
       >
         {!isCopied ? password : copyString}
