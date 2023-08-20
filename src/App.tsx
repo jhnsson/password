@@ -91,8 +91,8 @@ const App: React.FC = () => {
       <h2
         className={`${
           !isCopied
-            ? "max-w-[80%] md:max-w-[70%] xl:max-w-[60%] overflow-x-scroll overflow-y-hidden mb-6"
-            : "mb-[40px]"
+            ? "max-w-[80%] md:max-w-[70%] xl:max-w-[60%] overflow-x-hidden overflow-y-hidden mb-6"
+            : "mb-[24px]"
         } text-6xl`}
       >
         {!isCopied ? password : copyString}
